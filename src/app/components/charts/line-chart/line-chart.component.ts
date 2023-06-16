@@ -11,7 +11,8 @@ export class LineChartComponent {
     responsive: true,
   };
   public lineChartData: ChartDataset[] = [
-    { data: [65, 59, 80, 81, 56, 55, 40], 
+    { 
+      data: [65, 59, 80, 81, 56, 55, 40], 
       label: 'Series A - ' ,
       borderColor: 'black',
       backgroundColor: 'rgba(255,0,0,0.3)',

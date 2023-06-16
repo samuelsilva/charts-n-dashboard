@@ -21,6 +21,8 @@ import { MatMenuModule } from '@angular/material/menu';
 import { CardComponent } from './components/card/card.component';
 import { RadarChartComponent } from './components/charts/radar-chart/radar-chart.component';
 import { LineChartComponent } from './components/charts/line-chart/line-chart.component';
+import { PieChartComponent } from './components/charts/pie-chart/pie-chart.component';
+import { BarChartComponent } from './components/charts/bar-chart/bar-chart.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { LineChartComponent } from './components/charts/line-chart/line-chart.co
     DashComponent,
     CardComponent,
     RadarChartComponent,
-    LineChartComponent
+    LineChartComponent,
+    PieChartComponent,
+    BarChartComponent
   ],
   imports: [
     BrowserModule,

@@ -18,5 +18,5 @@ export class NavComponent {
 
   constructor(private breakpointObserver: BreakpointObserver) {}
 
-  menuItems = ['dashboard', 'sales', 'orders', 'customers', 'products', 'Radar Chart','Line Chart'];
+  menuItems = ['dashboard', 'Radar Chart','Line Chart', 'Pie Chart','Bar Chart'];
 }
