@@ -6,6 +6,7 @@ import { RadarChartComponent } from "./components/charts/radar-chart/radar-chart
 import { LineChartComponent } from "./components/charts/line-chart/line-chart.component";
 import { PieChartComponent } from "./components/charts/pie-chart/pie-chart.component";
 import { BarChartComponent } from "./components/charts/bar-chart/bar-chart.component";
+import { DonutChartComponent } from "./components/charts/donut-chart/donut-chart.component";
 
 const routes: Routes = [
     { path: 'dashboard', component: DashComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
     { path: 'Line Chart', component: LineChartComponent },
     { path: 'Pie Chart', component: PieChartComponent },
     { path: 'Bar Chart', component: BarChartComponent },    
+    { path: 'Donut Chart', component: DonutChartComponent },
     { path: '**', redirectTo: '' }
 
 ];
